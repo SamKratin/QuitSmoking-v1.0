@@ -54,9 +54,8 @@ public class SettingsActivity extends Activity {
                             new SimpleDateFormat("yyyy-MM-dd").format(new Date()),
                             initial_cig_count,
                             Double.parseDouble(cig_price_obj.getText().toString()),
-                            subtract_cigarette,                 //ADD SUBTRACT CIGARETTE!!
-                            false
-
+                            false,
+                            0
                     );
 
                     Intent intentStartPage = new Intent(v.getContext(), StartPageActivity.class);

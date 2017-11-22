@@ -88,7 +88,7 @@ public class StartPageActivity extends FragmentActivity {
 
                     @Override
                     public void onClick(View v) {
-
+                   // settings.
                     }
                 });
 
