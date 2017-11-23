@@ -15,6 +15,10 @@ import android.database.sqlite.SQLiteDatabase;
 import com.example.android.quitsmoking.models.SettingEntity;
 
 /**
+ *
+ * Data Base SQLite
+ * Obviously the hardest part of my app.
+ * I wasn't ready for this one.
  * Created by sam on 2017-10-28.
  */
 
@@ -51,6 +55,11 @@ public class SettingDAOImpl extends SQLiteOpenHelper {
         db.execSQL("DROP TABLE IF EXISTS qs_settings");
         onCreate(db);
     }
+
+    /**
+     *
+     *
+     */
 
     public int insertSetting(int initialCigCount, int qs_days_frame, String startDate, int dailyCigCount,
                              double cigPrice, boolean qs_fine, int subtract_cigarette) {

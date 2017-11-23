@@ -1,6 +1,7 @@
 package com.example.android.quitsmoking.models;
 
 /**
+ * This class was created for the purpose of learning.
  * Created by sam on 2017-11-09.
  */
 

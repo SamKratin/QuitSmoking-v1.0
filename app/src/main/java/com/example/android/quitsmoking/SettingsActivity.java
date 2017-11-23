@@ -16,16 +16,22 @@ import java.util.Date;
 import java.util.Objects;
 
 /**
+ * Class Settings Activity
  * Created by sam on 2017-10-29.
  */
 
+
 public class SettingsActivity extends Activity {
-    private SettingDAOImpl mydb;
+    private SettingDAOImpl mydb; //creating variable of DB
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start_settings);
+
+        /**
+         * Creating click-listener and defining initial parameters for text view
+         */
 
         Button b2 = findViewById(R.id.button2);
         b2.setOnClickListener(new View.OnClickListener() {
@@ -65,6 +71,10 @@ public class SettingsActivity extends Activity {
             }
         });
     }
+
+    /**
+     * Checking fields for correct input
+     */
 
     private boolean checkFields(ArrayList<EditText> fields) {
         boolean result = true;

@@ -3,6 +3,7 @@ package com.example.android.quitsmoking.models;
 import java.util.Date;
 
 /**
+ * Class contains all getter and setter methods.
  * Created by sam on 2017-10-30.
  */
 
